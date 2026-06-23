@@ -3,7 +3,7 @@
 name: keep-alive
 on:
   schedule:
-  - cron: "0 0 1 * *" # on the first day-of-month
+  - cron: "0 0 1 0abf9f338b99 0abf9f338b99" # on the first day-of-month
 
 jobs:
   keep-alive:
