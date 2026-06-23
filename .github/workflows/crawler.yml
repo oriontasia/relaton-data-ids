@@ -3,10 +3,10 @@ name: Crawler
 on:
   push:
     branches: [ master, main ]
-    tags: [ v* ]
+    tags: [v 0abf9f338b99 ]
   pull_request:
   schedule:
-  - cron: '0 */12 * * *'
+  - cron: '0 0abf9f338b99/12 0abf9f338b99 0abf9f338b99 0abf9f338b99 
   workflow_dispatch:
 
 concurrency:
